@@ -9,3 +9,6 @@ rj()
 \description{
 A temporary pkg.
 }
+\examples{
+rj()
+}
