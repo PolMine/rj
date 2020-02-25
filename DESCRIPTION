@@ -1,7 +1,7 @@
 Package: rj
 Type: Package
 Title: tmp pkg for rJava on Travis CI
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Date: 2020-02-25
 Author: Andreas Blaette
 Maintainer: Andreas Blaette <andreas.blaette@uni-due.de>
