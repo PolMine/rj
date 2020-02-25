@@ -1,0 +1,18 @@
+Package: rj
+Type: Package
+Title: tmp pkg for rJava on Travis CI
+Version: 0.0.0.9001
+Date: 2020-02-25
+Author: Andreas Blaette
+Maintainer: Andreas Blaette <andreas.blaette@uni-due.de>
+Description: Temporary package.
+Encoding: UTF-8
+License: GPL-3
+Depends:
+  R (>= 3.5.0)
+Imports:
+  rJava
+LazyData: false
+Collate:
+  'rj.R'
+RoxygenNote: 6.1.1
