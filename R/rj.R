@@ -1,10 +1,18 @@
+.onLoad <- function(libname, pkgname) {
+  rJava::.jpackage(pkgname, jars="*", lib.loc = libname)
+}
+
+
 #' RJ 
 #' 
 #' A temporary pkg.
 #' 
-#' @import rJava
+#' @export rj
 #' @examples 
 #' rj()
 rj <- function(){
-  rJava::.jinit()
+  if (requireNamespace("rJava", quietly = TRUE)){
+    rJava::.jinit()
+  }
+    
 }
